@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Here we make a function to calculate a mean in shorter time
+## using cache memory
 
-## Write a short comment describing this function
+## This function sets the mean in the cache memory
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function checks for cache stored or calculates the mean
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
